@@ -1,0 +1,28 @@
+.profile {
+  @include transition($transition);
+
+  background-color: $color-primary;
+  padding: 2rem 1rem;
+
+  @include md-breakpoint {
+    overflow: auto;
+    height: 510px;
+    width: 325px;
+  }
+
+  &.profile--is-active {
+    background-color: $color-highlight;
+
+    .user-description {
+      color: $color-white;
+
+      h4 {
+        color: $color-white;
+      }
+    }
+  }
+
+  .avatar__image {
+    margin: 0 auto;
+  }
+}

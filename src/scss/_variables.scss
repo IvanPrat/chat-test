@@ -1,0 +1,29 @@
+// Colors
+// -----------------------------
+
+// Font Atributes
+$font-body              : 'Open Sans', sans-serif !default;
+$font-size              : 16px !default;
+
+// Basic Colors
+$color-white            : #fff !default;
+
+// Brand Colors
+$color-primary          : #edebec !default;
+$color-primary-dark     : #3c3c3c !default;
+$color-primary-regular  : rgba($color-primary-dark, .5) !default;
+
+$color-accent           : #fc4481 !default;
+$color-active           : #73bc54 !default;
+$color-highlight        : #54bae2 !default;
+
+// Breakpoints
+$md-breakpoint          : 768px !default;
+
+// Gutter(s)
+$gutter                 : 20px !default;
+$gutter-half            : $gutter / 2 !default;
+
+// Default Attributes
+$border-radius          : 3px !default;
+$transition             : all .2s ease-in-out !default;

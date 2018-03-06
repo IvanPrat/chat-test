@@ -1,0 +1,5 @@
+@mixin md-breakpoint() {
+  @media (min-width: $md-breakpoint) {
+    @content;
+  }
+}

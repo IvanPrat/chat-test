@@ -1,0 +1,21 @@
+.avatar {
+  position: relative;
+  margin-bottom: 2rem;
+
+  .avatar__image {
+    max-width: 12rem;
+
+    position: relative;
+    img {
+      @include border-radius(100%);
+
+      max-width: 100%;
+    }
+  }
+
+  .avatar__status {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

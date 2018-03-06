@@ -1,0 +1,22 @@
+.header {
+  padding: 1rem;
+  background-color: $color-primary-dark;
+  color: $color-white;
+  text-align: center;
+  position: relative;
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .header__back-button {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: $gutter-half;
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+}

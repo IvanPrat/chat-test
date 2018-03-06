@@ -1,0 +1,67 @@
+.messages-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+
+  li {
+    display: table;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    > div {
+      display: table-cell;
+      vertical-align: middle;
+
+      &:first-child,
+      &:last-child {
+        text-align: right;
+
+        width: 15%;
+      }
+
+      &:first-child {
+        text-align: left;
+
+        img {
+          display: none;
+        }
+      }
+    }
+
+    .message {
+      @include border-radius(3px);
+
+      color: $color-white;
+      background-color: $color-highlight;
+      padding: 1rem;
+    }
+
+    img {
+      @include border-radius(100%);
+
+      max-height: 2rem;
+    }
+  }
+
+  .messages-list__is-sender {
+    .message {
+      color: $color-primary-dark;
+      background-color: $color-white;
+    }
+
+    > div {
+      &:last-child {
+        img {
+          display: none;
+        }
+      }
+
+      &:first-child {
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+}

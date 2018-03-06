@@ -1,0 +1,23 @@
+.btn {
+  @include opacity(.9);
+  @include border-radius($border-radius);
+  @include transition($transition);
+
+  display: inline-block;
+  border: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 1rem;
+  color: $color-white;
+  background-color: $color-primary-dark;
+
+  &:hover,
+  &:active {
+    @include opacity(1);
+  }
+
+  // Modifiers
+  &.btn--fullwidth {
+    width: 100%;
+  }
+}

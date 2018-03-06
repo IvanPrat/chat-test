@@ -1,0 +1,22 @@
+$round-label-size: 60px;
+
+.round-label {
+  @include border-radius(100%);
+
+  color: $color-white;
+  background-color: $color-active;
+  padding: 1rem;
+  width: $round-label-size;
+  height: $round-label-size;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  > span {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+}

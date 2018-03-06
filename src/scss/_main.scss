@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-primary;
+  font-family: $font-body;
+  font-size: $font-size;
+}
+
+// Note from the author: forced height/width in pixels due the backgroud
+
+.app-wrapper {
+  @include md-breakpoint {
+    width: 600px;
+    height: 730px;
+    background: url("../images/mobile-screen.png") no-repeat;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+    .container {
+      margin: 80px 137px;
+    }
+  }
+}

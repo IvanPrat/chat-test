@@ -1,0 +1,22 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Iván",
+    "age": 25,
+    "status": "online",
+    "avatar": "dist/images/1-ivan.jpg",
+    "location": "Barcelona",
+    "chatroom": "1234",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra commodo dolor"
+  },
+  "2": {
+    "id": 2,
+    "name": "Sophie",
+    "age": 22,
+    "status": "online",
+    "avatar": "dist/images/2-sophie.jpg",
+    "location": "New York",
+    "chatroom": "4321",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra commodo dolor"
+  }
+}
